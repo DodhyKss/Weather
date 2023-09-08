@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #ABC4AA;
+    text-align: center;
+}
+
+header {
+    font-family: 'Roboto', sans-serif;
+    padding:20px 0px 20px 0px;
+    color: white;
+}
+
+search-bar .input-search-bar {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: darkolivegreen;
+    width: 50%;
+}
+
+
+.btn-search-bar {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #A9907E;
+    color: white;
+    outline: none;
+}
+
+.btn-search-bar:hover{
+    background-color: #F3DEBA;
+    transition: 300ms;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.result {
+    width: 60%;
+    background-color: #F3DEBA;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Roboto', sans-serif;
+    padding: 25px;
+    text-align: left;
+    min-height: 210px;
+}
+
+.result .cuaca {
+    display: flex;
+}
+.result .derajat {
+    margin-right: 10px;
+    background-color: dimgray;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.result h1 {
+    color: #675D50;
+}
+
+.result h2 {
+    margin-top: 10px;
+    color: #675D50;
+}
+
+.result h3 {
+    margin-top: 10px;
+    color: #675D50;
+}
+
+.result h5 {
+    margin-top: 10px;
+    color: #675D50;
+}
+
+.result .kondisi {
+    background-color: dimgray;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+footer {
+    position: relative;
+    top: 225px;
+}
+.footer-bar {
+    background-color: #F3DEBA;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #675D50;
+}
+.footer-bar span {
+    color: lightsalmon;
+}
+
